@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 cd /var/www/html 
 sudo npm install
 sudo node main.js
