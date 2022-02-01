@@ -1,3 +1,5 @@
 #!/bin/bash
 cd /var/www/html 
+
+sudo pm2 stop main
 sudo pm2 start main.js 
