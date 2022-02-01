@@ -1,10 +1,11 @@
 
 var express = require('express');
+var ip = require("ip");
 var app = express();
 var PORT = 3000;
  
 app.get('/', (req, res) => {
-  res.send("GET Request Called")
+  res.send("GET Request Called : IP :: " +ip.address() ) ;
 })
  
 app.listen(PORT, function(err){
