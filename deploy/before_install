@@ -1,5 +1,4 @@
-#!/bin/sh
-sudo yum update
+#!/bin/sh 
 sudo yum install –y nodejs
-npm –version
+ 
  
