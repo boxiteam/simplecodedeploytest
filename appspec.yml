@@ -1,13 +1,13 @@
 version: 0.0
 os: linux
 files:
-  - source: /main.js
+  - source: /index.html
     destination: /var/www/html/
 hooks:
   BeforeInstall:
-    - location: deploy/install_dependencies
+    - location: deploy/before_install
       timeout: 300
-      runas: root 
+      runas: root
   AfterInstall:
     - location: deploy/restart_server
       timeout: 300

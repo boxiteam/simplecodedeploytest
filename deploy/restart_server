@@ -1,2 +1,3 @@
-#!/bin/bash
- 
+#!/bin/sh
+cd /var/www/html 
+sudo node main.js
