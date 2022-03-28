@@ -14,7 +14,19 @@ app.get('/title', (req, res) => {
 
 
 app.get('/employees', (req, res) => {
-  res.send(dsdsdsd) ;
+
+  var employees = [
+
+    {
+      id: 1, 
+      name:"mohammed"
+    } ,
+    {
+      id: 2, 
+      name:"ahmed"
+    }
+  ]
+  res.send(employees) ;
 })
 
 
