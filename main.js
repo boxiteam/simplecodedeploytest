@@ -17,8 +17,8 @@ app.post('/employees', (req, res) => {
   var employee  = 
 
     {
-      id: 1, 
-      name:"mohammed"
+      id: 10, 
+      name:"Ahmed"
     }   
   res.send(employee) ;
 })
