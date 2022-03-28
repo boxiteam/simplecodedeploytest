@@ -11,7 +11,27 @@ app.get('/', (req, res) => {
 app.get('/title', (req, res) => {
   res.send("Test Code") ;
 })
- 
+
+
+app.get('/employees', (req, res) => {
+
+  var employees = [
+
+    {
+      id: 1, 
+      name:"mohammed"
+    } ,
+    {
+      id: 2, 
+      name:"ahmed"
+    }
+  ]
+  res.send(employees) ;
+})
+
+
+
+
  
 app.listen(PORT, function(err){
     if (err) console.log(err);
