@@ -12,6 +12,17 @@ app.get('/title', (req, res) => {
   res.send("Test Code") ;
 })
 
+app.post('/employees', (req, res) => {
+
+  var employee  = 
+
+    {
+      id: 1, 
+      name:"mohammed"
+    }   
+  res.send(employee) ;
+})
+
 
 app.get('/employees', (req, res) => {
 
